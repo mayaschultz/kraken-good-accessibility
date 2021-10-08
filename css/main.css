@@ -21,15 +21,23 @@ body {
 img {
   display: block;
   width: 100%;
-  padding: 0rem;
-  margin: 1rem;
-  border: 2px solid #259f95;
+  border: 1px solid #259f95;
 }
 
+#kraken {
+  border-radius: .4rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.5rem;
+}
 
+#kraken-quote {
+  text-align: center;
+  margin-bottom: .6rem;
+}
 
 header {
   background-image: url("../images/anchors.svg");
+  background-color: #259f95;
   color: #fff;
   font-size: 1.125rem;
   font-style: normal;
@@ -112,6 +120,7 @@ nav a:focus {
   top: 0;
   width: 100%;
   fill: currentColor;
+  stroke-width: 10;
 }
 
 nav i {
